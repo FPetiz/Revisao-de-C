@@ -1,6 +1,4 @@
-/* Além de tudo isso, é possível criar um arquivo para salvar até as últimas 5 interações e colocar a opção de listá-las na tela.
- * (Fazer mais um cálculo/ Listar últimas interações/ Encerrar/ Listar últimas interações e encerrar)
- * De repende fazer uma função de leitura para 1 a 5 e outra para 6 para receber os valores do usuário*/
+/* Calculadora simples de 6 operações */
 
 #include <stdio.h>  // Biblioteca padrão
 #include <math.h>  // Para cálculos como potência, raiz quadrada, seno, cosseno, etc
@@ -229,3 +227,7 @@ float sqroot(float p){ //(6)
     q = sqrt(p);
     return q;
 }
+
+/* Além de tudo isso, é possível criar um arquivo para salvar até as últimas n interações e colocar a opção de listá-las na tela.
+ * (Fazer mais um cálculo/ Listar últimas interações/ Encerrar/ Listar últimas interações e encerrar)
+ * De repende fazer uma função de leitura para 1 a 5 e outra para 6 para receber os valores do usuário */
