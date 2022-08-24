@@ -1,7 +1,7 @@
 /* Faça um programa que leia um número n inteiro positivo par ou ímpar. Se par, imprima todos os números pares de 0 a N 
  * em ordem decrescente. Se ímpar, imprima todos os números ímpares de 1 ate N em ordem crescente. 
  * E e calcule a soma dos n primeiros números naturais. 
- * ~~ Junção dos exercísios 14, 15 e 17 da Lista 3 do programacaodescomplicada.wordpress.com ~~*/
+ * ~~ Junção dos exercísios 14, 15 e 17 da Lista 3 do programacaodescomplicada.wordpress.com ~~ */
 
 #include <stdio.h>
 
