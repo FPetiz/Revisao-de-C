@@ -16,13 +16,13 @@ int main(){
         printf("Digite a altura do %d° aluno: ", i+1);
         scanf("%f", &altura_aluno[i]);
     }
-    maior = altura_aluno[0]; malto = num_aluno[0];
-    menor = altura_aluno[0]; mbaixo = num_aluno[0];
+    maior = altura_aluno[0]; malto = num_aluno[0];    // Nesse momento, todos recebem o conteúdo da posição 0 para
+    menor = altura_aluno[0]; mbaixo = num_aluno[0];   // fazer as comparações dentro do laço e mudar caso precise
     for(i = 0; i <= 9; i++){
-        if(maior < altura_aluno[i]){
-            maior = altura_aluno[i];
-            malto = num_aluno[i];}
-        if(menor > altura_aluno[i]){
+        if(maior < altura_aluno[i]){    // Se o conteúdo de altura_aluno[i] for maior
+            maior = altura_aluno[i];    // a variável maior recebe um novo valor
+            malto = num_aluno[i];}      // e a variável malto recebe o conteúdo da posição de num_aluno[i] correspondente
+        if(menor > altura_aluno[i]){    // O mesmo acontece na verificação do menor
             menor = altura_aluno[i];
             mbaixo = num_aluno[i];}
     }
