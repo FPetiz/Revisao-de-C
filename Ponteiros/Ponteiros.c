@@ -1,6 +1,7 @@
-// Apenas um código de manipulação de ponteiros para testes
+// Apenas um código de manipulação de ponteiros para testes - das aulas sobre ponteiros do programacaodescomplicada.wordpress.com
 
 #include <stdio.h>
+
 void main(){
   
   int a;
