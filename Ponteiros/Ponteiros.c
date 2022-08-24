@@ -1,3 +1,5 @@
+// Apenas um código de manipulação de ponteiros para testes
+
 #include <stdio.h>
 void main(){
   
